@@ -14,7 +14,8 @@ end
 
 
 def age_appropiate_birthday
-age_appropiate_birthday.each do |kids, name, age|
+age_appropiate_birthday.each do |age|
+  if age < 12
   puts "You are the appropiate age!"
 end
 end

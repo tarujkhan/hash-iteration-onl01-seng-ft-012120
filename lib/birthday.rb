@@ -14,7 +14,7 @@ end
 
 
 def age_appropiate_birthday
-age_appropiate_birthday.all do |age|
+age_appropiate_birthday.any do |age|
   if age < 12
 end
 end

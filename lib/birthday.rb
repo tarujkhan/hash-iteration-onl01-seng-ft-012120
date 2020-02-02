@@ -19,3 +19,4 @@ age_appropiate_birthday.each do |age|
 end
 end
   puts "You are the appropiate age!"
+end

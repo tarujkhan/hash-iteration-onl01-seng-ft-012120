@@ -18,5 +18,4 @@ age_appropiate_birthday.each do |age|
   if age < 12
 end
 end
-end
   puts "You are the appropiate age!"

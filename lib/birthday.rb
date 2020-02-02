@@ -13,10 +13,10 @@ end
   # add your code snippet here!
 
 
-def age_appropiate_birthday
-age_appropiate_birthday.any do |age|
+def age_appropriate_birthday(birthday_kids)
+birthday_kids.any do |age|
   if age < 12
-end
-end
   puts "You are the appropiate age!"
+end
+end
 end

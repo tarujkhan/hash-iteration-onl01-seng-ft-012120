@@ -14,3 +14,7 @@ end
 
 
 def age_appropiate_birthday
+age_appropiate_birthday.each do |kids, name, age|
+  puts "You are the appropiate age!"
+end
+end
